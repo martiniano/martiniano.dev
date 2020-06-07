@@ -1,0 +1,56 @@
+## Basic Configuration
+
+baseurl = "https://martiniano.dev"
+builddrafts = false
+canonifyurls = false
+languageCode = "en-US"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+author = "Anderson Martiniano"
+title = "Anderson Martiniano"
+
+theme = "hugo-goa"
+
+## Hugo Built-in Features
+#disqusShortname = ""
+#googleAnalytics = ""
+#enableRobotsTXT = true
+
+## Site Settings
+[params]
+author = "Anderson Martiniano"
+intro = "Software Engineer at [Nuclearis](https://www.nuclearis.com.br/)"
+authorimage = "headshot.jpg"
+dateformat = "Jan 2, 2006"
+
+## Site Meta Settings
+[params.meta]
+description = "Personal blog"
+keywords = "andersonmartiniano,blog,hugo,developer"
+
+## Social Accounts
+[params.social]
+github = "martiniano"
+linkedin = "martiniano"
+
+## Extras
+[params.extra]
+copyright = "© 2020. Anderson Martiniano."
+poweredby = true
+highlightjs = true
+socialmarkup = true
+
+## Main Menu
+##[[menu.main]]
+##    name = "blog"
+##    weight = 100
+##   identifier = "blog"
+##    url = "/blog/"
+[[menu.main]]
+##    name = "about"
+##    identifier = "about"
+##    weight = 200
+##    url = "/about/"
